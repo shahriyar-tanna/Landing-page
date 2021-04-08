@@ -1,0 +1,273 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+}
+header{
+	width: 100%;
+	float: left;
+	background-color: #F5F9FA;
+}
+.logo{
+	margin: 20px 0px;
+}
+
+	/*Banner Section*/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+}
+.banner-body{
+	text-align: center;
+	padding: 150px 0px 30px 0px;
+}
+.banner-body h1{
+	font-size: 150px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	padding: 0px;
+}
+span{
+	width: 600px;
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	margin: 15px auto;
+}
+.banner-body p{
+	font-family: 'Lato', sans-serif;
+	color: #F5F9FA;
+	font-size: 22px;
+}
+.banner-body button{
+	background-color: transparent;
+	color: #F5F9FA;
+	border: 1px solid #15a4fa;
+	font-family: 'Lato', sans-serif;
+	padding: 10px 20px;
+	margin: 50px auto;
+}
+.fa.fa-angle-down {
+    	margin-top: 170px;
+    	font-size: 45px;
+    	color: #F5F9FA;
+    	cursor: pointer;
+    	margin-bottom: 60px;
+}
+.about{
+	width: 100%;
+	float: left;
+	background-color: #F5F9FA;
+	padding: 50px 0px;
+	text-align: center;
+}
+.about-body h1{
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
+	font-size: 50px;	
+}
+.about-body p{
+	margin: 0px 115px;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+}
+.service{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+.service-one{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.service-one h3{
+	font-family: 'Lato', sans-serif;
+	padding: 20px 0px;
+}
+.service-one p{
+	font-family: 'Lato', sans-serif;
+	margin: 0px 20px;
+	color: grey;
+}
+.service-two{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.service-two h3{
+	font-family: 'Lato', sans-serif;
+	padding: 20px 0px;
+}
+.service-two p{
+	font-family: 'Lato', sans-serif;
+	margin: 0px 20px;
+	color: grey;
+}
+.service-three{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.service-three h3{
+	font-family: 'Lato', sans-serif;
+	padding: 20px 0px;
+}
+.service-three p{
+	font-family: 'Lato', sans-serif;
+	margin: 0px 20px;
+	color: grey;
+}
+.showcase{
+	width: 100%;
+	float: left;
+	background-color: #F5F9FA;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding: 50px 0px;
+}
+.showcase-one h1{
+	font-size: 50px;
+}
+.showcase-one p{
+	padding: 15px 0px;
+	color: grey;
+	font-family: 'Lato', sans-serif;
+}
+.showcase-two{
+	width: 100%;
+	float: left;
+	padding: 25px 0px 15px 0px;
+}
+.show-one{
+	width: 33.33%;
+	float: left;
+}
+.show-two{
+	width: 33.33%;
+	float: left;
+}
+.show-three{
+	width: 33.33%;
+	float: left;
+}
+.showcase-three{
+	width: 100%;
+	float: left;
+}
+.show-four{
+	width: 33.33%;
+	float: left;
+}
+.show-five{
+	width: 33.33%;
+	float: left;
+}
+.show-six{
+	width: 33.33%;
+	float: left;
+}
+.contact{
+	width: 100%;
+	float: left;
+	background: url(../img/image.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 30px 0px;
+}
+.con-one{
+	width: 100%;
+	float: left;
+	padding-bottom: 20px 0px;
+}
+.con-one h1{
+	color: white;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+}
+.con-one p{
+	color: grey;
+	padding: 10px 0px 30px 0px;
+	font-family: 'Lato', sans-serif;
+}
+.con-two{
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 20px 0px;
+}
+.form-control{
+	color: white;
+    	background: transparent;
+    	border: 1px solid #ffffff8c;
+   	width: 90%;
+    	padding: 15px;
+    	margin-bottom: 10px;
+    	border-radius: 4px;
+}
+textarea{
+	background: transparent;
+	border: 1px solid #ffffff8c;
+	border-radius: 4px;
+	padding: 15px;
+}
+.con-three{
+	width: 545px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.con-four{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+label{
+	color: #F5F9FA;
+	font-family: 'Lato', sans-serif;
+}
+.con-five{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.con-five input{
+	padding: 10px 50px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #F5F9FA;
+	border-radius: 3px;
+	font-size: 18px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: #F5F9FA;
+	padding: 20px 0px;
+}
+.foot-one{
+	width: 50%;
+	float: left;
+	color: grey;
+	font-family: 'Lato', sans-serif;
+}
+.foot-two{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+a{
+	background: #15A4FA;
+	color: white;
+	padding: 5px;
+    	border-radius: 3px;
+}
